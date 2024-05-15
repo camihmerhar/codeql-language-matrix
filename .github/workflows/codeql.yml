@@ -36,7 +36,7 @@ strategy:
 
       - name: Autobuild
         uses: github/codeql-action/autobuild@v3
-            - if: ${{ contains(matrix.language, 'java-kotlin') }}
+             - if: ${{ contains(matrix.language, 'java-kotlin') }}
                 name: Autobuild
                 uses: github/codeql-action/autobuild@v3
 
